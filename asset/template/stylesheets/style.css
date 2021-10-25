@@ -1,0 +1,142 @@
+@import url(../fonts/kalpurush/stylesheet.css);
+
+*{
+    padding:0;
+    margin:0;
+    font-family: kalpurushregular!important;
+}
+.footer-health {
+	background-color:#EBEBEB;
+	height: 100px;
+	margin: 0 auto;
+}
+.footer-inner .block {
+	margin-top: 30px;
+}
+.footer-inner .block p {
+	font-size: 1.2em;
+	margin: 0;
+	text-align: right;
+}
+
+.horizontal-tabs ul{
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #aaa;
+}
+.horizontal-tabs ul li{
+	background-color: #FAFAFA;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+    float: left;
+    margin-bottom: 0;
+    
+}
+.horizontal-tabs ul li.active{
+	background-color: #aaa;
+}
+.horizontal-tabs ul li a{
+	color: #000;
+	padding: 10px;
+	float: left;
+}
+.horizontal-tabs ul li.active a{
+	color: #fff;
+}
+.horizontal-tabs ul li.active a:hover{
+	color: #fff;
+}
+
+.vertical-tabs div{
+	width: 70%;
+	float: left;
+}
+
+.vertical-tabs ul{
+	width: 30%;
+	float: left;
+}
+.vertical-tabs ul li{
+	width: 90%;
+	background-color: #FAFAFA;
+    border-right: 1px solid #aaa;
+    float: left;
+    margin-bottom: 0;
+}
+.vertical-tabs ul li.active{
+	background-color: #aaa;
+}
+.vertical-tabs ul li a{
+	float: left;
+	color: #000;
+	padding: 10px;
+}
+.vertical-tabs ul li.active a{
+	color: #fff;
+}
+.vertical-tabs ul li.active a:hover{
+	color: #fff;
+}
+
+.work_distribution li,
+.work_distribution a{
+	float: left;
+	font-size: 1em;
+	color: #666;
+}
+@media only screen and (min-width: 960px) {
+	body{
+		background: url("../images/bg_main.gif") repeat-y scroll center top rgba(0, 0, 0, 0);
+	}
+	.footer-artwork {
+		background: url("../images/footer_top_bg.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+		height: 84px;
+		margin: 0 auto;
+		width: 1020px;
+		clear:both;
+	}
+	.footer-health {
+		width: 1020px;
+	}
+	#block-block-1 {
+		float: right;
+		text-align: right;
+		margin-right: 20px;
+	}
+	.right-side-bar{
+		width: 220px!important;
+		margin-left: 20px!important;
+	}
+}
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {
+	.footer-artwork {
+		height: 15px;
+		margin: 0 auto;
+		background-color: #666;
+	}
+	#notice-board{
+				background: url("images/welcome_grad.html") repeat-x scroll center bottom #EBEBEB;
+				border: 1px solid #DDDDDD;
+				height: 172px;
+				font-size: .8em;
+				padding: 20px 0 0 120px;
+			}
+			#notice-board h2{
+				font-size: 1.5em;
+			}
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}

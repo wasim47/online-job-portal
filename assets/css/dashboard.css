@@ -1,0 +1,85 @@
+.view-stats{
+	color: #0e73a9;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	width: 150px;
+	text-align: center;
+	height: 40px;
+}
+.view-stats:hover, .view-stats:focus{
+	color: #fff;
+	background-color: #0e73a9;
+}
+
+.edit-resume-btn{
+	color: #69aa44;
+	background-color: #fff;
+	border: 1px solid #e5e5e5;
+	width: 150px;
+	height: 40px;
+	text-align: center;
+}
+.edit-resume-btn:hover, .edit-resume-btn:focus{
+	color: #fff;
+	background-color: #69aa44;
+}
+.top-button{
+	margin-bottom: 10px;
+	float: right;
+}
+
+.side-menu{
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px 0px;
+}
+.side-menu ul{
+    margin: 0;
+    padding: 0;
+}
+.side-menu ul li{
+    list-style: none;
+}
+.side-menu li.divider{
+    height: 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #e5e5e5;
+}
+.side-menu ul li a{
+    color: #616161;
+    padding: 8px 20px;
+    display: block;
+    text-decoration: none;
+    border-left: 5px solid #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+.side-menu ul li .badge{
+    background-color: #ff4081;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+.side-menu ul li a.close{
+    display: none;
+}
+.side-menu ul li a i{
+    padding-right: 15px;
+    font-size: 14px;
+    width: 28px;
+    display: inline-block;
+}
+.side-menu ul li a:hover, nav.side-menu ul li a.active{
+    color: #68aa47;
+    background-color: #f5f5f5;
+    border-left: 5px solid #68aa47;
+}
+.side-menu li.titleD{
+    padding: 12px 25px 6px 25px;
+    font-size: 13px;
+    color: #68aa47;
+    text-transform: uppercase;
+    font-weight: 800;
+}
